@@ -1,0 +1,225 @@
+:root {
+  /* білий колір і задивка стор #ffffff */
+  --white-kolor: #ffffff;
+
+  /* колір основного тексту і заливка  #2E2F42 */
+  --title-text-color: #2e2f42;
+
+  /* колір другорядного тексту #434455 */
+  --secondary-text-color: #434455;
+
+  /* синя кнопка і веб IRIS color #4D5AE5 */
+  --iris-web: #4d5ae5;
+  /* button for portfolio#404BBF */
+  --ocean-color: #404bbf;
+  /* hover and focus */
+  --hover-focus: #404bbf;
+  /* colors footer studio  #F4F4FD;*/
+  --color-text-p: #f4f4fd;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--secondary-text-color);
+  font-family: "Roboto", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/*  хедер логотип */
+.logo {
+  color: var(--iris-web);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logosp {
+  color: var(--title-text-color);
+}
+
+/* navigation header */
+.add {
+  font-style: normal;
+}
+.navigation {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.navigation:hover,
+.navigation:focus {
+  color: var(--hover-focus);
+}
+.auth {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.auth:focus,
+.auth:hover {
+  color: var(--hover-focus);
+}
+/* section1 (hero) */
+
+.hero {
+  background-color: var(--title-text-color);
+}
+
+.hero-name {
+  color: var(--white-kolor);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.hero-button {
+  background-color: var(--iris-web);
+  color: var(--white-kolor);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-button:focus,
+.hero-button:hover {
+  background-color: var(--hover-focus);
+}
+/* section 2 */
+.h-hidden {
+  color: var(--title-text-color);
+  font-style: normal;
+}
+
+.list-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.list-paragraph {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* section3 */
+.aboutus-name {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* section4 */
+.team {
+  background-color: var(--color-text-p);
+}
+.team-list {
+  background-color: var(--white-kolor);
+}
+
+.team-our {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.team-paragraph {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/* footer */
+.footer {
+  background-color: var(--title-text-color);
+}
+.footer-logo {
+  color: var(--iris-web);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-span {
+  color: var(--color-text-p);
+}
+
+.footer-paragraph {
+  color: var(--color-text-p);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* PORTFOLIO */
+/* button */
+.filters-button {
+  background-color: var(--color-text-p);
+  color: var(--iris-web);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.filters-button:hover,
+.filters-button:focus {
+  background-color: var(--ocean-color);
+  color: var(--white-kolor);
+}
+
+.portfolioname {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolioparagraph {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
