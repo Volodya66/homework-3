@@ -64,9 +64,6 @@ body {
   padding-top: 0;
   padding-bottom: 0;
 }
-.section.team {
-  padding-bottom: 0;
-}
 
 /*  хедер логотип */
 .logo {
@@ -222,7 +219,7 @@ body {
 
 .list-section-two {
   display: flex;
-  gap: 28px;
+  gap: 24px;
 }
 
 /* .list-section-two .item + .item {
@@ -308,7 +305,7 @@ body {
 }
 
 .data {
-  padding: 16px 32px;
+  padding: 32px 16px;
 }
 
 .team-name {
@@ -431,6 +428,12 @@ body {
 .portfolio-list .item.item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
+
+/* .application-categories {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+} */
 
 .portfolioname {
   margin-top: 32px;
